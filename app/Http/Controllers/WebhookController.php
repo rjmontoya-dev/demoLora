@@ -17,7 +17,7 @@ class WebhookController extends Controller
 
     }
     public function index(){
-
+        return "asdf";
         return Inertia::render('Welcome');
     }
 }
